@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(97, 202, 244);
+    width: 95%;
+    margin: auto;
+    height: 80px;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-items {
+    list-style: none;
+    margin-top: 20px;
+    font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.item {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.center {
+    display: flex;
+    justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(97, 202, 244);
+    text-align: center;
+    color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
+
+.container h3,
+input,
+button {
+
+    width: 400px;
+    margin: 5px auto;
+    border: 1px solid skyblue;
+    padding: 10px;
+    text-align: center;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   margin-top: 50px;
+}
+.input-box{
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.otnavbar{
+    display: flex; 
+    justify-content: flex-end;
+    background-color: rgb(97, 202, 244);
+    width: 100%;
+    margin: auto;
+    height: 80px;
+    box-sizing: border-box;
+}
+.nav-items1{
+    list-style: none;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.ot-item {
+    color: white;
+    text-decoration: none;
+    margin-right: 100px;
+    
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.log-head{
+ text-align: center;
+}
+.invalid{
+    display: inline-block;
+    margin-left: 480px;
+    color: red;
+}
+.list-product{
+    text-align: center;
+    
+}
+
+.anch-link{
+    text-decoration: none;
+    color:black
+}
+.anch-link:hover{
+    color:blue
+}
+.table{
+    margin: auto;
+}
+.table-head{
+    border: 2px solid skyblue;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.table-head button{
+    width: 80px;
+    padding: 5px;
+}
+
+
